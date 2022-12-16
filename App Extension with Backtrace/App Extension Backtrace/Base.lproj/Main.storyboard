@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="App_Extension_Backtrace" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Tap world icon on keyboard" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pVi-fP-pRg">
+                                <rect key="frame" x="54.666666666666657" y="409" width="284" height="34"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go to Settings app." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Hjw-H4-iX4">
+                                <rect key="frame" x="123" y="149" width="147" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Navigate to General -&gt; Keyboard -&gt; Keyboards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="TXn-aT-r7h">
+                                <rect key="frame" x="18" y="205" width="357" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose &quot;App Extension Backtrace&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="NWM-SZ-OeI">
+                                <rect key="frame" x="63" y="331" width="267" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Add New Keyboard..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="qIP-Vg-Xfd">
+                                <rect key="frame" x="90.666666666666686" y="267" width="212" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qIP-Vg-Xfd" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="29W-vf-j0h"/>
+                            <constraint firstItem="TXn-aT-r7h" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.908397" id="6DV-PQ-6b4"/>
+                            <constraint firstItem="NWM-SZ-OeI" firstAttribute="top" secondItem="qIP-Vg-Xfd" secondAttribute="bottom" constant="43" id="7zc-5f-alB"/>
+                            <constraint firstItem="pVi-fP-pRg" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.722646" id="IIA-Py-Mgt"/>
+                            <constraint firstItem="TXn-aT-r7h" firstAttribute="top" secondItem="Hjw-H4-iX4" secondAttribute="bottom" constant="35" id="Iyr-n5-88t"/>
+                            <constraint firstItem="qIP-Vg-Xfd" firstAttribute="top" secondItem="TXn-aT-r7h" secondAttribute="bottom" constant="41" id="KBM-56-Syd"/>
+                            <constraint firstItem="TXn-aT-r7h" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="MuL-he-dgY"/>
+                            <constraint firstItem="pVi-fP-pRg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Tac-2C-M17"/>
+                            <constraint firstItem="NWM-SZ-OeI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="WVt-vv-mb9"/>
+                            <constraint firstItem="pVi-fP-pRg" firstAttribute="top" secondItem="NWM-SZ-OeI" secondAttribute="bottom" constant="57" id="Y8f-Hl-SZe"/>
+                            <constraint firstItem="qIP-Vg-Xfd" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.53944" id="ZPS-uE-aus"/>
+                            <constraint firstItem="Hjw-H4-iX4" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.374046" id="hTR-HS-Bj8"/>
+                            <constraint firstItem="Hjw-H4-iX4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="iKJ-yK-zRs"/>
+                            <constraint firstItem="Hjw-H4-iX4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="tRi-S5-ViJ"/>
+                            <constraint firstItem="NWM-SZ-OeI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.679389" id="yMO-LU-j4W"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="pVi-fP-pRg" id="J1L-9c-rg6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

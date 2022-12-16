@@ -1,0 +1,6 @@
+framework module Cassette {
+  umbrella header "Cassette-umbrella.h"
+
+  export *
+  module * { export * }
+}

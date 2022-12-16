@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFCB45A2294CBBB0008E5391 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCB45A1294CBBB0008E5391 /* AppDelegate.swift */; };
+		EFCB45A4294CBBB0008E5391 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCB45A3294CBBB0008E5391 /* SceneDelegate.swift */; };
+		EFCB45A6294CBBB0008E5391 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCB45A5294CBBB0008E5391 /* ViewController.swift */; };
+		EFCB45A9294CBBB0008E5391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCB45A7294CBBB0008E5391 /* Main.storyboard */; };
+		EFCB45AB294CBBB1008E5391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCB45AA294CBBB1008E5391 /* Assets.xcassets */; };
+		EFCB45AE294CBBB1008E5391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCB45AC294CBBB1008E5391 /* LaunchScreen.storyboard */; };
+		EFCB45B9294CBBB1008E5391 /* App_Extension_BacktraceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCB45B8294CBBB1008E5391 /* App_Extension_BacktraceTests.swift */; };
+		EFCB45C3294CBBB1008E5391 /* App_Extension_BacktraceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCB45C2294CBBB1008E5391 /* App_Extension_BacktraceUITests.swift */; };
+		EFCB45C5294CBBB1008E5391 /* App_Extension_BacktraceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCB45C4294CBBB1008E5391 /* App_Extension_BacktraceUITestsLaunchTests.swift */; };
+		EFCB45D8294CBCF2008E5391 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCB45D7294CBCF2008E5391 /* KeyboardViewController.swift */; };
+		EFCB45DC294CBCF2008E5391 /* Keyboard Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EFCB45D5294CBCF2008E5391 /* Keyboard Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFCB45B5294CBBB1008E5391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCB4596294CBBB0008E5391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFCB459D294CBBB0008E5391;
+			remoteInfo = "App Extension Backtrace";
+		};
+		EFCB45BF294CBBB1008E5391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCB4596294CBBB0008E5391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFCB459D294CBBB0008E5391;
+			remoteInfo = "App Extension Backtrace";
+		};
+		EFCB45DA294CBCF2008E5391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCB4596294CBBB0008E5391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFCB45D4294CBCF2008E5391;
+			remoteInfo = "Keyboard Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EFCB45E0294CBCF2008E5391 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EFCB45DC294CBCF2008E5391 /* Keyboard Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EFCB459E294CBBB0008E5391 /* App Extension Backtrace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Extension Backtrace.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCB45A1294CBBB0008E5391 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFCB45A3294CBBB0008E5391 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFCB45A5294CBBB0008E5391 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFCB45A8294CBBB0008E5391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFCB45AA294CBBB1008E5391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFCB45AD294CBBB1008E5391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFCB45AF294CBBB1008E5391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFCB45B4294CBBB1008E5391 /* App Extension BacktraceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App Extension BacktraceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCB45B8294CBBB1008E5391 /* App_Extension_BacktraceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Extension_BacktraceTests.swift; sourceTree = "<group>"; };
+		EFCB45BE294CBBB1008E5391 /* App Extension BacktraceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App Extension BacktraceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCB45C2294CBBB1008E5391 /* App_Extension_BacktraceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Extension_BacktraceUITests.swift; sourceTree = "<group>"; };
+		EFCB45C4294CBBB1008E5391 /* App_Extension_BacktraceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Extension_BacktraceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFCB45D5294CBCF2008E5391 /* Keyboard Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Keyboard Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCB45D7294CBCF2008E5391 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		EFCB45D9294CBCF2008E5391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFCB459B294CBBB0008E5391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB45B1294CBBB1008E5391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB45BB294CBBB1008E5391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB45D2294CBCF2008E5391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFCB4595294CBBB0008E5391 = {
+			isa = PBXGroup;
+			children = (
+				EFCB45A0294CBBB0008E5391 /* App Extension Backtrace */,
+				EFCB45B7294CBBB1008E5391 /* App Extension BacktraceTests */,
+				EFCB45C1294CBBB1008E5391 /* App Extension BacktraceUITests */,
+				EFCB45D6294CBCF2008E5391 /* Keyboard Extension */,
+				EFCB459F294CBBB0008E5391 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFCB459F294CBBB0008E5391 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFCB459E294CBBB0008E5391 /* App Extension Backtrace.app */,
+				EFCB45B4294CBBB1008E5391 /* App Extension BacktraceTests.xctest */,
+				EFCB45BE294CBBB1008E5391 /* App Extension BacktraceUITests.xctest */,
+				EFCB45D5294CBCF2008E5391 /* Keyboard Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFCB45A0294CBBB0008E5391 /* App Extension Backtrace */ = {
+			isa = PBXGroup;
+			children = (
+				EFCB45A1294CBBB0008E5391 /* AppDelegate.swift */,
+				EFCB45A3294CBBB0008E5391 /* SceneDelegate.swift */,
+				EFCB45A5294CBBB0008E5391 /* ViewController.swift */,
+				EFCB45A7294CBBB0008E5391 /* Main.storyboard */,
+				EFCB45AA294CBBB1008E5391 /* Assets.xcassets */,
+				EFCB45AC294CBBB1008E5391 /* LaunchScreen.storyboard */,
+				EFCB45AF294CBBB1008E5391 /* Info.plist */,
+			);
+			path = "App Extension Backtrace";
+			sourceTree = "<group>";
+		};
+		EFCB45B7294CBBB1008E5391 /* App Extension BacktraceTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFCB45B8294CBBB1008E5391 /* App_Extension_BacktraceTests.swift */,
+			);
+			path = "App Extension BacktraceTests";
+			sourceTree = "<group>";
+		};
+		EFCB45C1294CBBB1008E5391 /* App Extension BacktraceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFCB45C2294CBBB1008E5391 /* App_Extension_BacktraceUITests.swift */,
+				EFCB45C4294CBBB1008E5391 /* App_Extension_BacktraceUITestsLaunchTests.swift */,
+			);
+			path = "App Extension BacktraceUITests";
+			sourceTree = "<group>";
+		};
+		EFCB45D6294CBCF2008E5391 /* Keyboard Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EFCB45D7294CBCF2008E5391 /* KeyboardViewController.swift */,
+				EFCB45D9294CBCF2008E5391 /* Info.plist */,
+			);
+			path = "Keyboard Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFCB459D294CBBB0008E5391 /* App Extension Backtrace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCB45C8294CBBB1008E5391 /* Build configuration list for PBXNativeTarget "App Extension Backtrace" */;
+			buildPhases = (
+				EFCB459A294CBBB0008E5391 /* Sources */,
+				EFCB459B294CBBB0008E5391 /* Frameworks */,
+				EFCB459C294CBBB0008E5391 /* Resources */,
+				EFCB45E0294CBCF2008E5391 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFCB45DB294CBCF2008E5391 /* PBXTargetDependency */,
+			);
+			name = "App Extension Backtrace";
+			productName = "App Extension Backtrace";
+			productReference = EFCB459E294CBBB0008E5391 /* App Extension Backtrace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFCB45B3294CBBB1008E5391 /* App Extension BacktraceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCB45CB294CBBB1008E5391 /* Build configuration list for PBXNativeTarget "App Extension BacktraceTests" */;
+			buildPhases = (
+				EFCB45B0294CBBB1008E5391 /* Sources */,
+				EFCB45B1294CBBB1008E5391 /* Frameworks */,
+				EFCB45B2294CBBB1008E5391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFCB45B6294CBBB1008E5391 /* PBXTargetDependency */,
+			);
+			name = "App Extension BacktraceTests";
+			productName = "App Extension BacktraceTests";
+			productReference = EFCB45B4294CBBB1008E5391 /* App Extension BacktraceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFCB45BD294CBBB1008E5391 /* App Extension BacktraceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCB45CE294CBBB1008E5391 /* Build configuration list for PBXNativeTarget "App Extension BacktraceUITests" */;
+			buildPhases = (
+				EFCB45BA294CBBB1008E5391 /* Sources */,
+				EFCB45BB294CBBB1008E5391 /* Frameworks */,
+				EFCB45BC294CBBB1008E5391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFCB45C0294CBBB1008E5391 /* PBXTargetDependency */,
+			);
+			name = "App Extension BacktraceUITests";
+			productName = "App Extension BacktraceUITests";
+			productReference = EFCB45BE294CBBB1008E5391 /* App Extension BacktraceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EFCB45D4294CBCF2008E5391 /* Keyboard Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCB45DD294CBCF2008E5391 /* Build configuration list for PBXNativeTarget "Keyboard Extension" */;
+			buildPhases = (
+				EFCB45D1294CBCF2008E5391 /* Sources */,
+				EFCB45D2294CBCF2008E5391 /* Frameworks */,
+				EFCB45D3294CBCF2008E5391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Keyboard Extension";
+			productName = "Keyboard Extension";
+			productReference = EFCB45D5294CBCF2008E5391 /* Keyboard Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFCB4596294CBBB0008E5391 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					EFCB459D294CBBB0008E5391 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					EFCB45B3294CBBB1008E5391 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = EFCB459D294CBBB0008E5391;
+					};
+					EFCB45BD294CBBB1008E5391 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = EFCB459D294CBBB0008E5391;
+					};
+					EFCB45D4294CBCF2008E5391 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = EFCB4599294CBBB0008E5391 /* Build configuration list for PBXProject "App Extension Backtrace" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFCB4595294CBBB0008E5391;
+			productRefGroup = EFCB459F294CBBB0008E5391 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFCB459D294CBBB0008E5391 /* App Extension Backtrace */,
+				EFCB45B3294CBBB1008E5391 /* App Extension BacktraceTests */,
+				EFCB45BD294CBBB1008E5391 /* App Extension BacktraceUITests */,
+				EFCB45D4294CBCF2008E5391 /* Keyboard Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFCB459C294CBBB0008E5391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCB45AE294CBBB1008E5391 /* LaunchScreen.storyboard in Resources */,
+				EFCB45AB294CBBB1008E5391 /* Assets.xcassets in Resources */,
+				EFCB45A9294CBBB0008E5391 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB45B2294CBBB1008E5391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB45BC294CBBB1008E5391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB45D3294CBCF2008E5391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFCB459A294CBBB0008E5391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCB45A6294CBBB0008E5391 /* ViewController.swift in Sources */,
+				EFCB45A2294CBBB0008E5391 /* AppDelegate.swift in Sources */,
+				EFCB45A4294CBBB0008E5391 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB45B0294CBBB1008E5391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCB45B9294CBBB1008E5391 /* App_Extension_BacktraceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB45BA294CBBB1008E5391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCB45C3294CBBB1008E5391 /* App_Extension_BacktraceUITests.swift in Sources */,
+				EFCB45C5294CBBB1008E5391 /* App_Extension_BacktraceUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCB45D1294CBCF2008E5391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCB45D8294CBCF2008E5391 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFCB45B6294CBBB1008E5391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFCB459D294CBBB0008E5391 /* App Extension Backtrace */;
+			targetProxy = EFCB45B5294CBBB1008E5391 /* PBXContainerItemProxy */;
+		};
+		EFCB45C0294CBBB1008E5391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFCB459D294CBBB0008E5391 /* App Extension Backtrace */;
+			targetProxy = EFCB45BF294CBBB1008E5391 /* PBXContainerItemProxy */;
+		};
+		EFCB45DB294CBCF2008E5391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFCB45D4294CBCF2008E5391 /* Keyboard Extension */;
+			targetProxy = EFCB45DA294CBCF2008E5391 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFCB45A7294CBBB0008E5391 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFCB45A8294CBBB0008E5391 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFCB45AC294CBBB1008E5391 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFCB45AD294CBBB1008E5391 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFCB45C6294CBBB1008E5391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFCB45C7294CBBB1008E5391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFCB45C9294CBBB1008E5391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "App Extension Backtrace/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.App-Extension-Backtrace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFCB45CA294CBBB1008E5391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "App Extension Backtrace/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.App-Extension-Backtrace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFCB45CC294CBBB1008E5391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.App-Extension-BacktraceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App Extension Backtrace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/App Extension Backtrace";
+			};
+			name = Debug;
+		};
+		EFCB45CD294CBBB1008E5391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.App-Extension-BacktraceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App Extension Backtrace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/App Extension Backtrace";
+			};
+			name = Release;
+		};
+		EFCB45CF294CBBB1008E5391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.App-Extension-BacktraceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "App Extension Backtrace";
+			};
+			name = Debug;
+		};
+		EFCB45D0294CBBB1008E5391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.App-Extension-BacktraceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "App Extension Backtrace";
+			};
+			name = Release;
+		};
+		EFCB45DE294CBCF2008E5391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Keyboard Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Keyboard Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.App-Extension-Backtrace.Keyboard-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFCB45DF294CBCF2008E5391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Keyboard Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Keyboard Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.App-Extension-Backtrace.Keyboard-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFCB4599294CBBB0008E5391 /* Build configuration list for PBXProject "App Extension Backtrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCB45C6294CBBB1008E5391 /* Debug */,
+				EFCB45C7294CBBB1008E5391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCB45C8294CBBB1008E5391 /* Build configuration list for PBXNativeTarget "App Extension Backtrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCB45C9294CBBB1008E5391 /* Debug */,
+				EFCB45CA294CBBB1008E5391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCB45CB294CBBB1008E5391 /* Build configuration list for PBXNativeTarget "App Extension BacktraceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCB45CC294CBBB1008E5391 /* Debug */,
+				EFCB45CD294CBBB1008E5391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCB45CE294CBBB1008E5391 /* Build configuration list for PBXNativeTarget "App Extension BacktraceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCB45CF294CBBB1008E5391 /* Debug */,
+				EFCB45D0294CBBB1008E5391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCB45DD294CBCF2008E5391 /* Build configuration list for PBXNativeTarget "Keyboard Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCB45DE294CBCF2008E5391 /* Debug */,
+				EFCB45DF294CBCF2008E5391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFCB4596294CBBB0008E5391 /* Project object */;
+}
